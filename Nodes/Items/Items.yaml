@@ -3,17 +3,21 @@ Type: FolderType
 Children:
 - Name: rn_PanelLoader
   Type: ObjectLibraryItem
-  Description: {"LocaleId":"","Text":"New library to navugate between panels"}
   Children:
   - Name: LibraryItemGuid
     Type: BaseDataVariableType
     DataType: Guid
-    Value: "da60ca9e2297f12c1c706882f8a28984"
+    Value: "9f25f10c6582f5beebb28d9c65d8b14c"
   - Name: LibraryItemVersion
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 1
   - Name: rn_PanelLoader
-    Id: g=ffea4ea54ef834b45f4d1ba4e989cdf3
+    Id: g=56709bf4868c1ff9629c0904ab57ffda
     Supertype: NetLogic
     ReferenceType: HasComponent
+    Children:
+    - Class: Method
+      Name: GoBack
+    - Class: Method
+      Name: GoNext
